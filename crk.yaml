@@ -1,8 +1,8 @@
-internalName: _keyboards
+internalName: crk_keyboards
 
 displayNames:
-  crk: 
-  en: 
+  crk: nēhiyawēwin
+  en: Plains Cree
 
 locale: crk
 
@@ -18,42 +18,54 @@ modes:
     Ž Z Č C V B N M W
 
 # desktop keyboard layouts:
-  "iso-default": &default |
-    ' 1 2 3 4 5 6 7 8 9 0 + ´
-    á š e r t ŧ u i o p å ŋ
-    a s d f g h j k l ø æ đ
-    ž z č c v b n m , . -
-  "iso-shift": |
-    § ! " # $ % & / ( ) = ? `
-    Á Š E R T Ŧ U I O P Å Ŋ
-    A S D F G H J K L Ø Æ Đ
-    Ž Z Č C V B N M ; : _
-  "iso-caps": |
-    ' 1 2 3 4 5 6 7 8 9 0 + ´
-    Á Š E R T Ŧ U I O P Å Ŋ
-    A S D F G H J K L Ø Æ Đ
-    Ž Z Č C V B N M , . -
-  "iso-alt": |
-    ' © ™ £ € ˆ § | [ ] ˝ ± ´
-    q w é ˇ þ y ˀ ʼ œ ˙ ˚ ¨
-    ¯ ß ð ƒ . ˛ ˘ ˜ - ö ä @
-    < ÷ x ¸ ‹ › ‘ ’ ‚ … –
-  "iso-alt+shift": |
-    § ¡ ® ¥ ¢ ̂ ¶ \ { } ̋ ¿ \u{300}
-    Q W É ̌ Þ Y ̉ ̛ Œ \u{307} \u{30A} \u{308}
-    ̄ № Ð ʔ ̣ ̨ ̆ ̃ ̵ Ö Ä *
-    > ⁄ X ̧ « » “ ” „ · —
-  "iso-alt+caps": |
-    ' © ™ £ € ˆ § | [ ] ˝ ± \u{300}
-    Q W É ˇ Þ Y ˀ ʼ Œ ˙ ˚ ¨
-    ¯ SS Ð ƒ . ˛ ˘ ˜ - Ö Ä @
-    < ÷ X ¸ ‹ › ‘ ’ ‚ … –
-  "iso-ctrl": |
-    0 1 2 3 4 5 6 7 8 9 0 \u{1F} =
+  # default
+  iso-default: |
+    ` 1 2 3 4 5 6 7 8 9 0 - =
+    q w e r t y u i o p [ ]
+    a s d f g h j k l ; ' ¯
+    § z x c v b n m , . /
+  # shift+caps?
+  iso-shift: |
+    ~ ! @ # $ % ^ & * ( ) _ +
+    Q W E R T Y U I O P { }
+    A S D F G H J K L : " ˆ
+    ± Z X C V B N M < > ?
+  # " # caps
+  iso-caps: |
+    ` 1 2 3 4 5 6 7 8 9 0 - =
+    Q W E R T Y U I O P [ ]
+    A S D F G H J K L ; ' ¯
+    § Z X C V B N M , . /
+  # opt
+  iso-alt: |
+    ` ¡ ™ £ ¢ § ˆ ¶ • ª º – ≠
+    œ ˙ ē ® þ ý ¨ ī ō , “ ‘
+    ā š ð ƒ © ˍ ˝ ˚ - … æ «
+    § ˀ . ¸ ˇ ˘ ń ˛ ≤ ≥ ÷
+  # opt+shift+cmd?+caps?
+  iso-alt+shift: |
+    \u{300} ⁄ € ‹ › † \u{302} ‡ ° · ‚ — ±
+    Œ \u{307} ê ‰ Þ \u{A0}\u{30F} \u{308} î ô \u{326} ” ’
+    â \u{A0}\u{311} Ð \u{A0}\u{330} ‸ \u{331} \u{30B} \u{30A} \u{335} № Æ »
+    ± \u{309} \u{323} \u{327} \u{30C} \u{306} \u{303} \u{328} „ ʔ ¿
+  # opt+caps
+  iso-caps+alt: |
+    ` ¡ ™ £ ¢ § ˆ ¶ • ª º – ≠
+    Œ ˙ ´ ® Þ ¥ ¨ ʼ Ø , “ ‘
+    ¯ SS Ð ƒ © ˍ ˝ ˚ - … Æ «
+    § ˀ . ¸ ˇ ˘ ˜ ˛ ≤ ≥ ÷
+  # ctrlL+cmd?+optL?+caps?+shift? ctrlL+optR+cmd?+optL?+caps?+shiftL?
+  iso-ctrl: |
+    ` 1 2 3 4 5 6 7 8 9 0 \u{1F} =
     \u{11} \u{17} \u{5} \u{12} \u{14} \u{19} \u{15} \u{9} \u{F} \u{10} \u{1B} \u{1D}
     \u{1} \u{13} \u{4} \u{6} \u{7} \u{8} \u{A} \u{B} \u{C} ; ' \u{1C}
-    ` \u{1A} \u{18} \u{3} \u{16} \u{2} \u{E} \u{D} , . /
-  "osx-cmd": *default
+    0 \u{1A} \u{18} \u{3} \u{16} \u{2} \u{E} \u{D} , . /
+  # cmd+opt+caps?
+  osx-cmd+alt: |
+    ` ¡ ™ £ ¢ § ˆ ¶ • ª º – ≠
+    œ ˙ ´ ® þ ¥ ¨ ’ ø , “ ‘
+    ¯ ß ð ƒ © ˍ ˝ ˚ - … æ «
+    § ’ . ¸ ˇ ˘ ˜ ˛ ≤ ≥ ÷
 
 # mobile keyboards properties:
 longpress:
@@ -85,14 +97,47 @@ strings:
 decimal: ","
 
 deadKeys:
-  "iso-default": ["´"]
-  "iso-shift": ["`"]
-  "iso-caps": ["´"]
-  "iso-alt": ["˝", "ˇ", "˛", "ƒ", "¨", "ʼ", "¯", "ˆ", "˚", "-", "˜", "¸", ".", "˘", "˙", "ˀ"]
-  "iso-alt+shift": ["ʔ", "№"]
-  "iso-alt+caps": ["˝", "ˇ", "˛", "ƒ", "¨", "ʼ", "¯", "ˆ", "˚", "-", "˜", "¸", ".", "˘", "˙", "ˀ"]
+  iso-alt: [',', '-', '.', '`', '¨', '¯', '´', '¸', 'ʼ', 'ˀ', 'ˆ', 'ˇ', 'ˍ', '˘', '˙', '˚', '˛', '˜', '˝']
+  iso-alt+shift: ['ʔ', '‸', '№']
+  iso-caps+alt: [',', '-', '.', '`', '¨', '¯', '´', '¸', 'ʼ', 'ˀ', 'ˆ', 'ˇ', 'ˍ', '˘', '˙', '˚', '˛', '˜', '˝']
 
 transforms:
+  \u{A0}\u{30F}:
+    " ": \u{A0}\u{30F}
+    a: ȁ
+    A: Ȁ
+    e: ȅ
+    E: Ȅ
+    i: ȉ
+    I: Ȉ
+    o: ȍ
+    O: Ȍ
+    r: ȑ
+    R: Ȑ
+    u: ȕ
+    U: Ȕ
+  \u{A0}\u{311}:
+    " ": \u{A0}\u{311}
+    a: ȃ
+    A: Ȃ
+    e: ȇ
+    E: Ȇ
+    i: ȋ
+    I: Ȋ
+    o: ȏ
+    O: Ȏ
+    r: ȓ
+    R: Ȓ
+    u: ȗ
+    U: Ȗ
+  \u{A0}\u{330}:
+    " ": \u{A0}\u{330}
+    e: ḛ
+    E: Ḛ
+    i: ḭ
+    I: Ḭ
+    u: ṵ
+    U: Ṵ
   "-":
     " ": "-"
     b: ƀ
@@ -159,6 +204,20 @@ transforms:
     Y: Ỵ
     z: ẓ
     Z: Ẓ
+  ‸:
+    " ": ‸
+    d: ḓ
+    D: Ḓ
+    e: ḙ
+    E: Ḙ
+    l: ḽ
+    L: Ḽ
+    n: ṋ
+    N: Ṋ
+    t: ṱ
+    T: Ṱ
+    u: ṷ
+    U: Ṷ
   "`":
     " ": "`"
     a: à
@@ -183,8 +242,6 @@ transforms:
     " ": ´
     a: á
     A: Á
-    å: ǻ
-    Å: Ǻ
     æ: ǽ
     Æ: Ǽ
     c: ć
@@ -224,7 +281,7 @@ transforms:
     z: ź
     Z: Ź
   ˜:
-    " ": "~"
+    " ": ˜
     a: ã
     A: Ã
     e: ẽ
@@ -253,22 +310,22 @@ transforms:
     G: Ḡ
     i: ī
     I: Ī
-    l: ḹ
-    L: Ḹ
+    l: l\u{323}\u{304}
+    L: L\u{323}\u{304}
     o: ō
     O: Ō
-    r: ṝ
-    R: Ṝ
-    s: s̄
-    S: S̄
+    r: r\u{323}\u{304}
+    R: R\u{323}\u{304}
+    s: s\u{304}
+    S: S\u{304}
     u: ū
     U: Ū
     v: ǖ
     V: Ǖ
     y: ȳ
     Y: Ȳ
-    z: z̄
-    Z: Z̄
+    z: z\u{304}
+    Z: Z\u{304}
   ˘:
     " ": ˘
     a: ă
@@ -340,7 +397,7 @@ transforms:
     o: ö
     O: Ö
     t: ẗ
-    T: T̈
+    T: T\u{308}
     u: ü
     U: Ü
     w: ẅ
@@ -353,16 +410,16 @@ transforms:
     " ": ˚
     a: å
     A: Å
-    e: e̊
-    E: E̊
-    o: o̊
-    O: O̊
+    e: e\u{30A}
+    E: E\u{30A}
+    o: o\u{30A}
+    O: O\u{30A}
     u: ů
     U: Ů
     w: ẘ
-    W: W̊
+    W: W\u{30A}
     y: ẙ
-    Y: Y̊
+    Y: Y\u{30A}
   ˝:
     " ": ˝
     o: ő
@@ -391,14 +448,10 @@ transforms:
     R: Ŗ
     s: ş
     S: Ş
-    š: ș
-    Š: Ș
     t: ţ
     T: Ţ
-    ŧ: ț
-    Ŧ: Ț
-    z: z̧
-    Z: Z̧
+    z: z\u{327}
+    Z: Z\u{327}
   ˛:
     " ": ˛
     a: ą
@@ -412,7 +465,7 @@ transforms:
     u: ų
     U: Ų
   ˆ:
-    " ": ^
+    " ": ˆ
     a: â
     A: Â
     c: ĉ
@@ -427,10 +480,10 @@ transforms:
     I: Î
     j: ĵ
     J: Ĵ
-    m: m̂
-    M: M̂
-    n: n̂
-    N: N̂
+    m: m\u{302}
+    M: M\u{302}
+    n: n\u{302}
+    N: N\u{302}
     o: ô
     O: Ô
     s: ŝ
@@ -460,7 +513,7 @@ transforms:
     i: ǐ
     I: Ǐ
     j: ǰ
-    J: J̌
+    J: J\u{30C}
     k: ǩ
     K: Ǩ
     l: ľ
@@ -479,23 +532,48 @@ transforms:
     U: Ǔ
     v: ǚ
     V: Ǚ
-    x: ǯ
-    X: Ǯ
+    x: ʒ\u{30C}
+    X: Ʒ\u{30C}
     z: ž
     Z: Ž
-  ƒ:
-    " ": ƒ
-    (: ≤
-    ): ≥
-    0: °
-    q: •
+  ˍ:
+    " ": ˍ
+    b: ḇ
+    B: Ḇ
+    d: ḏ
+    D: Ḏ
+    h: ẖ
+    H: H\u{331}
+    k: ḵ
+    K: Ḵ
+    l: ḻ
+    L: Ḻ
+    n: ṉ
+    N: Ṉ
+    r: ṟ
+    R: Ṟ
+    t: ṯ
+    T: Ṯ
+    z: ẕ
+    Z: Ẕ
   №:
     " ": №
+    "'": ʹ
+    ‘: ʻ
+    ’: ʼ
+    '"': ʺ
+    “: ʽ
+    "@": Ƨ
+    "*": Ȣ
+    "#": Ɛ
+    "%": Ƽ
+    ^: Ƅ
     2: ƨ
     3: ɛ
     5: ƽ
     6: ƅ
     7: ⁊
+    8: ȣ
     a: ə
     A: Ə
     c: ɔ
@@ -587,8 +665,7 @@ transforms:
 
 special:
   space:
-    "iso-caps": \u{A0}
-    "iso-alt": \u{A0}
-    "iso-alt+shift": \u{A0}
-    "iso-alt+caps": \u{A0}
-
+    iso-alt: \u{A0}
+    iso-alt+shift: \u{A0}
+    iso-caps+alt: \u{A0}
+    osx-cmd+alt: \u{A0}

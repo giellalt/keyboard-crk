@@ -1,12 +1,12 @@
-internalName: _keyboard
+internalName: crk_keyboard
 
 locales:
   en:
-    name: &bundleName " Keyboards"
+    name: &bundleName "Plains Cree Keyboards"
     description: "Mobile OS keyboards for  languages from the Divvun group at UiT."
-  nb:
-    name: " tastatur"
-    description: "Mobiltastatur for  fra Divvun-gruppa."
+  crk:
+    name: "nēhiyawēwin"
+    description: "Mobiltastatur for fra Divvun-gruppa."
 
 author: The Divvun Group, UiT Norgga árktalaš universitehta
 email: feedback@divvun.no
