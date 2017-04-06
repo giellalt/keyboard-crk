@@ -6,12 +6,12 @@ locales:
     description: "Mobile OS keyboards for  languages from the Divvun group at UiT."
   crk:
     name: "nēhiyawēwin"
-    description: "Mobiltastatur for fra Divvun-gruppa."
+    description: "Mobiltastatur for Plains Cree fra Divvun-gruppa."
 
 author: The Divvun Group, UiT Norgga árktalaš universitehta
 email: feedback@divvun.no
 
-copyright: (c) 2016 Divvun/Giellatekno/UiT
+copyright: (c) 2017 Divvun/Giellatekno/UiT
 organisation: UiT Norgga árktalaš universitehta
 
 layouts: [crk]
@@ -21,17 +21,17 @@ build: 1
 
 targets:
   android:
-    packageId: no.uit.giella.keyboards.
-    icon: sami-icon.pdf
+    packageId: no.uit.giella.keyboards.crk
+    icon: crk-icon.pdf
     keyStore: /Users/brendan/git/softkbdgen/test.keystore
-    keyAlias: sami_keyboard
+    keyAlias: crk_keyboard
 
   ios: &AppleID
     codeSignId: "iOS Development"
     provisioningProfileId: Test
-    packageId: no.uit.giella.keyboards.
+    packageId: no.uit.giella.keyboards.crk
     bundleName: *bundleName
     icon:
-        90: sami-icon-small.png
-        150: sami-icon.png
+        90: crk-icon-small.png
+        150: crk-icon.png
   osx: *AppleID
