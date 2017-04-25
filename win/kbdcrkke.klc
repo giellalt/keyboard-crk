@@ -4,7 +4,7 @@ COPYRIGHT	"(c) 2017 Divvun/Giellatekno/UiT"
 
 COMPANY	"UiT Norgga árktalaš universitehta"
 
-LOCALENAME	"crk"
+LOCALENAME	"cre"
 
 LOCALEID	"00001000"
 
@@ -520,12 +520,6 @@ DEADKEY	2116
 0023	0190	// # -> Ɛ
 0025	01bc	// % -> Ƽ
 005e	0184	// ^ -> Ƅ
-0032	01a8	// 2 -> ƨ
-0033	025b	// 3 -> ɛ
-0035	01bd	// 5 -> ƽ
-0036	0185	// 6 -> ƅ
-0037	204a	// 7 -> ⁊
-0038	0223	// 8 -> ȣ
 0061	0259	// a -> ə
 0041	018f	// A -> Ə
 0063	0254	// c -> ɔ

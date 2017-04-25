@@ -22,7 +22,7 @@ build: 1
 targets:
   android:
     packageId: no.uit.giella.keyboards.crk
-    icon: crk-icon.pdf
+    icon: images/plainwheel.jpg
     keyStore: /Users/brendan/git/softkbdgen/test.keystore
     keyAlias: crk_keyboard
 
@@ -33,5 +33,5 @@ targets:
     bundleName: *bundleName
     icon:
         90: crk-icon-small.png
-        150: crk-icon.png
+        150: images/plainwheel.jpg
   osx: *AppleID
