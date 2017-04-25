@@ -2,9 +2,10 @@ internalName: crk_keyboards
 
 displayNames:
   crk: nēhiyawēwin
+  cre: nēhiyawēwin
   en: Plains Cree
 
-locale: crk
+locale: cre
 
 modes:
 # mobile layouts:
@@ -564,12 +565,6 @@ transforms:
     "#": Ɛ
     "%": Ƽ
     ^: Ƅ
-    2: ƨ
-    3: ɛ
-    5: ƽ
-    6: ƅ
-    7: ⁊
-    8: ȣ
     a: ə
     A: Ə
     c: ɔ
