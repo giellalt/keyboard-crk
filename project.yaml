@@ -31,7 +31,5 @@ targets:
     provisioningProfileId: Test
     packageId: no.uit.giella.keyboards.crk
     bundleName: *bundleName
-    icon:
-        90: crk-icon-small.png
-        150: images/plainwheel.jpg
+    icon: images/__UND__-icon.png
   osx: *AppleID
