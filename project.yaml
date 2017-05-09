@@ -32,4 +32,7 @@ targets:
     packageId: no.uit.giella.keyboards.crk
     bundleName: *bundleName
     icon: images/crk-icon.png
-  osx: *AppleID
+  osx:
+    <<: *AppleID
+    icon: images/crk-icon.png
+    codeSignId: "my-test-installer"
