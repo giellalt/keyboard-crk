@@ -31,5 +31,5 @@ targets:
     provisioningProfileId: Test
     packageId: no.uit.giella.keyboards.crk
     bundleName: *bundleName
-    icon: images/__UND__-icon.png
+    icon: images/crk-icon.png
   osx: *AppleID
