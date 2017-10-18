@@ -40,8 +40,8 @@ modes:
     | z x c v b n m , > ?
   # altR+caps? ctrl+alt+caps?
   iso-alt: |
-    \u{0} ¡ ²     ³       ¤     €     ¼     ½     ¾     ‘ ’ ¥ ×
-          ä å     é       ®     þ     ü     ú     í     ó ö « »
+    \u{0} ¡ ²     ³ ¤     €     ¼     ½     ¾     ‘     ’ ¥ ×
+          ä å     é ®     þ     ü     ú     í     ó     ö « »
           á ß     ð \u{0} \u{0} \u{0} \u{0} \u{0} ø     ¶ ´ ¬
     \u{0} æ \u{0} © \u{0} \u{0} ñ     µ     ç     \u{0} ¿
   # altR+shift+caps? ctrl+alt+shift+caps?
