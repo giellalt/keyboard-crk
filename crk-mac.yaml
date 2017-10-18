@@ -1,23 +1,13 @@
-internalName: crk_keyboards
+### Generated from en-t-k0-osx-extended.xml on 2016-05-11 at 23:18.
+internalName: crk_mac
 
 displayNames:
   crk: nēhiyawēwin
-  cre: nēhiyawēwin
   en: Plains Cree
 
-locale: cre
+locale: crk
 
 modes:
-# mobile layouts:
-  mobile-default: |
-    á š e r t y u i o p
-    a s d f g h j k l đ
-    ž z č c v b n m w
-  mobile-shift: |
-    Á Š E R T Y U I O P
-    A S D F G H J K L Đ
-    Ž Z Č C V B N M W
-
 # desktop keyboard layouts:
   # default
   iso-default: |
@@ -67,32 +57,6 @@ modes:
     œ ˙ ´ ® þ ¥ ¨ ’ ø , “ ‘
     ¯ ß ð ƒ © ˍ ˝ ˚ - … « \
     § ’ . ¸ ˇ ˘ ˜ ˛ ≤ ≥ ÷
-
-# mobile keyboards properties:
-longpress:
-  Á: Q
-  A: Æ Ä Å
-  Č: X
-  O: Ø Ö
-  á: q
-  a: æ ä å
-  č: x
-  o: ø ö
-
-styles:
-  tablet:
-    actions:
-      backspace: [1, right, fill]
-      enter: [2, right, fill]
-      shift: [3, both, fill]
-  phone:
-    actions:
-      shift: [3, left, fill]
-      backspace: [3, right, fill]
-
-strings:
-  space: gaska
-  return: linnjámolsun
 
 # other desktop keyboard properties:
 decimal: ","
