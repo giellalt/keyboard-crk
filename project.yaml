@@ -1,4 +1,4 @@
-internalName: crk_keyboard
+internalName: crk
 
 locales:
   en:
@@ -14,7 +14,7 @@ email: feedback@divvun.no
 copyright: (c) 2017 Divvun/Giellatekno/UiT
 organisation: UiT Norgga árktalaš universitehta
 
-layouts: [crk]
+layouts: [crk-mobile, crk-mac]
 
 version: 1.0
 build: 1
