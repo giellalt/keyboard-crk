@@ -14,51 +14,45 @@ modes:
   # default
   iso-default: |
     ` 1 2 3 4 5 6 7 8 9 0 - =
-    q w e r t y u i o p [ ]
-    a s d f g h j k l ; ' ¯
+      q w e r t y u i o p [ ]
+      a s d f g h j k l ; ' ¯
     § z x c v b n m , . /
   # shift+caps?
   iso-shift: |
     ~ ! @ # $ % ^ & * ( ) _ +
-    Q W E R T Y U I O P { }
-    A S D F G H J K L : " ˆ
+      Q W E R T Y U I O P { }
+      A S D F G H J K L : " ˆ
     ± Z X C V B N M < > ?
   # " # caps
   iso-caps: |
     ` 1 2 3 4 5 6 7 8 9 0 - =
-    Q W E R T Y U I O P [ ]
-    A S D F G H J K L ; ' ¯
+      Q W E R T Y U I O P [ ]
+      A S D F G H J K L ; ' ¯
     § Z X C V B N M , . /
   # opt
   iso-alt: |
     ` ¡ ™ £ ¢ § ˆ ¶ • ª º – ≠
-    œ ˙ ē ® þ ý ¨ ī ō , “ ‘
-    ā š ð ƒ © ˍ ˝ ˚ - … « \
+      œ ˙ ē ® þ ý ¨ ī ō , “ ‘
+      ā š ð ƒ © ˍ ˝ ˚ - … « \
     § ˀ . ¸ ˇ ˘ ń ˛ ≤ ≥ ÷
   # opt+shift+cmd?+caps?
   iso-alt+shift: |
-    \u{300} ⁄             €       ‹             ›       †             \u{302} ‡       °       ·       ‚ — ±
-    Œ       \u{307}       ê       ‰             Þ       \u{A0}\u{30F} \u{308} î       ô       \u{326} ” ’
-    â       \u{A0}\u{311} Ð       \u{A0}\u{330} ‸       \u{331}       \u{30B} \u{30A} \u{335} №       » |
-    ±       \u{309}       \u{323} \u{327}       \u{30C} \u{306}       \u{303} \u{328} „       ʔ       ¿
+    \u{300} ⁄       €             ‹       ›             †       \u{302}       ‡       °       ·       ‚       — ±
+            Œ       \u{307}       ê       ‰             Þ       \u{A0}\u{30F} \u{308} î       ô       \u{326} ” ’
+            â       \u{A0}\u{311} Ð       \u{A0}\u{330} ‸       \u{331}       \u{30B} \u{30A} \u{335} №       » |
+    ±       \u{309} \u{323}       \u{327} \u{30C}       \u{306} \u{303}       \u{328} „       ʔ       ¿
   # opt+caps
   iso-caps+alt: |
-    ` ¡  ™ £ ¢ § ˆ ¶ • ª º – ≠
-    Œ ˙  ´ ® Þ ¥ ¨ ʼ Ø , “ ‘
-    ¯ SS Ð ƒ © ˍ ˝ ˚ - … « \
-    § ˀ  . ¸ ˇ ˘ ˜ ˛ ≤ ≥ ÷
+    ` ¡ ™  £ ¢ § ˆ ¶ • ª º – ≠
+      Œ ˙  ´ ® Þ ¥ ¨ ʼ Ø , “ ‘
+      ¯ SS Ð ƒ © ˍ ˝ ˚ - … « \
+    § ˀ .  ¸ ˇ ˘ ˜ ˛ ≤ ≥ ÷
   # ctrlL+cmd?+optL?+caps?+shift? ctrlL+optR+cmd?+optL?+caps?+shiftL?
   iso-ctrl: |
-    `      1      2      3      4      5      6      7     8     9      0      \u{1F} =
-    \u{11} \u{17} \u{5}  \u{12} \u{14} \u{19} \u{15} \u{9} \u{F} \u{10} \u{1B} \u{1D}
-    \u{1}  \u{13} \u{4}  \u{6}  \u{7}  \u{8}  \u{A}  \u{B} \u{C} ;      '      \u{1C}
-    0      \u{1A} \u{18} \u{3}  \u{16} \u{2}  \u{E}  \u{D} ,     .      /
-  # cmd+opt+caps?
-  osx-cmd+alt: |
-    ` ¡ ™ £ ¢ § ˆ ¶ • ª º – ≠
-    œ ˙ ´ ® þ ¥ ¨ ’ ø , “ ‘
-    ¯ ß ð ƒ © ˍ ˝ ˚ - … « \
-    § ’ . ¸ ˇ ˘ ˜ ˛ ≤ ≥ ÷
+    ` 1      2      3      4      5      6      7     8     9      0      \u{1F} =
+      \u{11} \u{17} \u{5}  \u{12} \u{14} \u{19} \u{15} \u{9} \u{F} \u{10} \u{1B} \u{1D}
+      \u{1}  \u{13} \u{4}  \u{6}  \u{7}  \u{8}  \u{A}  \u{B} \u{C} ;      '      \u{1C}
+    0 \u{1A} \u{18} \u{3}  \u{16} \u{2}  \u{E}  \u{D} ,     .      /
 
 # other desktop keyboard properties:
 decimal: ","

@@ -17,44 +17,44 @@ modes:
   # default
   iso-default: |
     ` 1 2 3 4 5 6 7 8 9 0 - =
-    q w e r t y u i o p [ ]
-    a s d f g h j k l ; ' \
+      q w e r t y u i o p [ ]
+      a s d f g h j k l ; ' \
     \ z x c v b n m , . /
   # shift
   iso-shift: |
     ~ ! @ # $ % ^ & * ( ) _ +
-    Q W E R T Y U I O P { }
-    A S D F G H J K L : " |
+      Q W E R T Y U I O P { }
+      A S D F G H J K L : " |
     | Z X C V B N M < > ?
   # caps
   iso-caps: |
     ` 1 2 3 4 5 6 7 8 9 0 - =
-    Q W E R T Y U I O P [ ]
-    A S D F G H J K L ; ' \
+      Q W E R T Y U I O P [ ]
+      A S D F G H J K L ; ' \
     \ Z X C V B N M < . /
   # caps+shift
   iso-caps+shift: |
     ~ ! @ # $ % ^ & * ( ) _ +
-    q w e r t y u i o p { }
-    a s d f g h j k l : " |
+      q w e r t y u i o p { }
+      a s d f g h j k l : " |
     | z x c v b n m , > ?
   # altR+caps? ctrl+alt+caps?
   iso-alt: |
-    \u{0} ¡ ² ³ ¤ € ¼ ½ ¾ ‘ ’ ¥ ×
-    ä å é ® þ ü ú í ó ö « »
-    á ß ð \u{0} \u{0} \u{0} \u{0} \u{0} ø ¶ ´ ¬
-    \u{0} æ \u{0} © \u{0} \u{0} ñ µ ç \u{0} ¿
+    \u{0} ¡ ²     ³       ¤     €     ¼     ½     ¾     ‘ ’ ¥ ×
+          ä å     é       ®     þ     ü     ú     í     ó ö « »
+          á ß     ð \u{0} \u{0} \u{0} \u{0} \u{0} ø     ¶ ´ ¬
+    \u{0} æ \u{0} © \u{0} \u{0} ñ     µ     ç     \u{0} ¿
   # altR+shift+caps? ctrl+alt+shift+caps?
   iso-alt+shift: |
-    \u{0} ¹ \u{0} \u{0} £ \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} ÷
-    Ä Å É \u{0} Þ Ü Ú Í Ó Ö \u{0} \u{0}
-    Á § Ð \u{0} \u{0} \u{0} \u{0} \u{0} Ø ° ¨ ¦
-    \u{0} Æ \u{0} ¢ \u{0} \u{0} Ñ \u{0} Ç \u{0} \u{0}
+    \u{0} ¹ \u{0} \u{0} £     \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} ÷
+          Ä Å     É     \u{0} Þ     Ü     Ú     Í     Ó     Ö     \u{0} \u{0}
+          Á §     Ð     \u{0} \u{0} \u{0} \u{0} \u{0} Ø     °     ¨     ¦
+    \u{0} Æ \u{0} ¢     \u{0} \u{0} Ñ     \u{0} Ç     \u{0} \u{0}
   # ctrl+caps?
   iso-ctrl: |
-    \u{0}  \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}  \u{0}  \u{0}
-    \u{0}  \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{1B} \u{1D}
-    \u{0}  \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}  \u{1C}
+    \u{0}  \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}  \u{0}
+           \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{1B} \u{1D}
+           \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}  \u{1C}
     \u{1C} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
 
 deadKeys:
