@@ -1,5 +1,5 @@
 ### Generated from en-t-k0-osx-extended.xml on 2016-05-11 at 23:18.
-internalName: crk
+internalName: crk-mac
 
 displayNames:
   crk: nēhiyawēwin
@@ -61,8 +61,8 @@ deadKeys:
   iso-default: ['¯']
   iso-shift: ['ˆ']
   iso-caps: ['¯']
-  iso-alt: [',', '-', '.', '`', '¨', '¯', '´', '¸', 'ʼ', 'ˀ', 'ˆ', 'ˇ', 'ˍ', '˘', '˙', '˚', '˛', '˜', '˝']
-  iso-alt+shift: ['ʔ', '‸', '№']
+  iso-alt: [',', '-', '.', '`', '¨', '¸', 'ˀ', 'ˆ', 'ˇ', 'ˍ', '˘', '˙', '˚', '˛', '˝']
+  iso-alt+shift: ['ʔ', '‸', '№', '\u{A0}\u{30F}', '\u{A0}\u{311}', '\u{A0}\u{330}']
   iso-caps+alt: [',', '-', '.', '`', '¨', '¯', '´', '¸', 'ʼ', 'ˀ', 'ˆ', 'ˇ', 'ˍ', '˘', '˙', '˚', '˛', '˜', '˝']
 
 transforms:
