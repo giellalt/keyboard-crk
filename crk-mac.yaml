@@ -7,6 +7,8 @@ displayNames:
 
 locale: crk
 
+supportedTargets: [osx, x11, svg]
+
 modes:
 # desktop keyboard layouts:
   # default

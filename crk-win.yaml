@@ -1,11 +1,17 @@
 ### Generated from en-t-k0-windows-extended.xml on 2017-10-18 at 09:34.
+internalName: crk
 
-internalName: en-t-k0-windows-extended
+  crk: nēhiyawēwin
+  en: Plains Cree
 
-displayNames:
-  en: United States-International
+locale: crk
 
-locale: en
+supportedTargets: [win, x11, svg]
+
+targets:
+  win:
+    locale: crk-Latn
+    languageName: "nēhiyawēwin"
 
 modes:
   # default
@@ -46,9 +52,9 @@ modes:
     \u{0} Æ \u{0} ¢ \u{0} \u{0} Ñ \u{0} Ç \u{0} \u{0}
   # ctrl+caps?
   iso-ctrl: |
-    \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
-    \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{1B} \u{1D}
-    \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{1C}
+    \u{0}  \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}  \u{0}  \u{0}
+    \u{0}  \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{1B} \u{1D}
+    \u{0}  \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}  \u{1C}
     \u{1C} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
 
 deadKeys:

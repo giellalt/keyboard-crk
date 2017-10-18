@@ -6,6 +6,8 @@ displayNames:
 
 locale: crk
 
+supportedTargets: [ios, android]
+
 modes:
 # mobile layouts:
   mobile-default: |
