@@ -778,8 +778,8 @@ transforms:
     o: õ
     O: Õ
 strings:
-  space: gaska
-  return: linnjámolsun
+  space: ayakaskâw
+  return: askoc
 space:
   mac:
     alt: '\u{A0}'
