@@ -84,6 +84,31 @@ modes:
              \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{1B} \u{1D}
              \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}  \u{1C}
       \u{1C} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
+longpress:
+  Á: Q
+  A: Æ Ä Å
+  Č: X
+  O: Ø Ö
+  á: q
+  a: æ ä å
+  č: x
+  o: ø ö
+deadKeys:
+  mac:
+    default: [ˆ]
+    shift: [¯]
+    caps: [ˆ]
+    alt: [',', '-', ., '`', ¨, ¸, ˀ, ˆ, ˇ, ˍ, ˘, ˙, ˚, ˛, ˝]
+    alt+shift: [ʔ, ‸, №, '\u{A0}\u{30F}', '\u{A0}\u{311}', '\u{A0}\u{330}']
+    caps+alt: [',', '-', ., '`', ¨, ¯, ´, ¸, ʼ, ˀ, ˆ, ˇ, ˍ, ˘, ˙, ˚, ˛, ˜, ˝]
+  win:
+    default: ['''', '`', ¯]
+    shift: ['"', ^, '~', ˆ]
+    caps: ['''', '`', ˆ]
+    caps+shift: ['"', ^, '~', ¯]
+  android:
+    default: [ˆ]
+    shift: [ˆ]
 transforms:
   '\u{A0}\u{30F}':
     ' ': '\u{A0}\u{30F}'
@@ -684,15 +709,6 @@ transforms:
     'N': Ñ
     o: õ
     O: Õ
-longpress:
-  Á: Q
-  A: Æ Ä Å
-  Č: X
-  O: Ø Ö
-  á: q
-  a: æ ä å
-  č: x
-  o: ø ö
 strings:
   space: gaska
   return: linnjámolsun
@@ -702,19 +718,6 @@ space:
     alt+shift: '\u{A0}'
     caps+alt: '\u{A0}'
     cmd+alt: '\u{A0}'
-deadKeys:
-  mac:
-    default: [¯]
-    shift: [ˆ]
-    caps: [¯]
-    alt: [',', '-', ., '`', ¨, ¸, ˀ, ˆ, ˇ, ˍ, ˘, ˙, ˚, ˛, ˝]
-    alt+shift: [ʔ, ‸, №, '\u{A0}\u{30F}', '\u{A0}\u{311}', '\u{A0}\u{330}']
-    caps+alt: [',', '-', ., '`', ¨, ¯, ´, ¸, ʼ, ˀ, ˆ, ˇ, ˍ, ˘, ˙, ˚, ˛, ˜, ˝]
-  win:
-    default: ['''', '`', ¯]
-    shift: ['"', ^, '~', ˆ]
-    caps: ['''', '`', ˆ]
-    caps+shift: ['"', ^, '~', ¯]
 targets:
   ios:
     legacyName: crk
