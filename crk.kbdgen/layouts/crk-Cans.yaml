@@ -244,13 +244,17 @@ space:
 
 targets:
   ios:
-    legacyName: crk
+    spellerPackageKey: https://pahkat.uit.no/main/packages/speller-crk?channel=nightly&platform=mobile
+    spellerPath: crk-Cans.bhfst
   android:
-    legacyName: crk
+    spellerPackageKey: https://pahkat.uit.no/main/packages/speller-crk?channel=nightly&platform=mobile
+    spellerPath: crk-Cans.bhfst
   win:
-    locale: crk-Latn
-    languageName: nēhiyawēwin
-    legacyName: crk-win
+    locale: crk-Cans
+    languageName: ᓀᐦᐃᔭᐍᐏᐣ
+  chrome:
+    locale: "en"
+    xkbLayout: "en"
 
 
 # Here is the Saskatchewan keyboard for Mac, as reference
