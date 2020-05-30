@@ -7,20 +7,20 @@ modes:
     default: |
       q w e r t y u i o p
       a s d f g h j k l ˆ
-        z x c v b n m w
+        z x c v b n m ¯
     shift: |
       Q W E R T Y U I O P
       A S D F G H J K L ˆ
-        Z X C V B N M W
+        Z X C V B N M ¯
   ios:
     default: |
-      á š e r t y u i o p ŋ
-      a s d f g h j k l đ ŧ
-      \s{shift:1.25} \s{spacer:0.25} ž z č c v b n m \s{spacer:0.25} \s{backspace:1.25}
+      q w e r t y u i o p
+      a s d f g h j k l ˆ
+      \s{shift:1.25} \s{spacer:0.25} z x c v b n m ¯ \s{spacer:0.25} \s{backspace:1.25}
     shift: |
-      Á Š E R T Y U I O P Ŋ
-      A S D F G H J K L Đ Ŧ
-      \s{shift:1.25} \s{spacer:0.25} Ž Z Č C V B N M \s{spacer:0.25} \s{backspace:1.25}
+      Q W E R T Y U I O P
+      A S D F G H J K L ˆ
+      \s{shift:1.25} \s{spacer:0.25} Z X C V B N M ¯ \s{spacer:0.25} \s{backspace:1.25}
     symbols-1: |
       1 2 3 4 5 6 7 8 9 0
       - / : ; ( ) kr & @ "
@@ -161,6 +161,7 @@ longpress:
   a: æ ä å
   č: x
   o: ø ö
+
 deadKeys:
   mac:
     shift: [^]
@@ -173,8 +174,18 @@ deadKeys:
     caps: ['''', '`', ˆ]
     caps+shift: ['"', ^, '~', ¯]
   android:
-    default: [ˆ]
-    shift: [ˆ]
+    default: [ˆ, '¯']
+    shift: [ˆ, '¯']
+  ios:
+    default: [ˆ, '¯']
+    shift: [ˆ, '¯']
+  ipad-9in:
+    default: [ˆ, '¯']
+    shift: [ˆ, '¯']
+  ipad-12in:
+    default: [ˆ, '¯']
+    shift: [ˆ, '¯']
+
 transforms:
   '\u{A0}\u{30F}':
     ' ': '\u{A0}\u{30F}'
