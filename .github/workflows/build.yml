@@ -37,6 +37,7 @@ jobs:
         uses: divvun/actions/keyboard/build@master
         with:
           keyboard-type: ${{ matrix.type }}
+          GITHUB_TOKEN: ${{ secret.GITHUB_TOKEN }}
       - name: Deploy
         uses: divvun/actions/keyboard/deploy@master
         with:
