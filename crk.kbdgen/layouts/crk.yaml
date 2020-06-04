@@ -798,12 +798,12 @@ space:
 targets:
   ios:
     legacyName: crk
-#    spellerPackageKey: https://pahkat.uit.no/main/packages/speller-crk?channel=nightly&platform=mobile
-#    spellerPath: crk.bhfst
+    spellerPackageKey: https://pahkat.uit.no/main/packages/speller-crk?channel=nightly&platform=mobile
+    spellerPath: crk.bhfst
   android:
     legacyName: crk
-#    spellerPackageKey: https://pahkat.uit.no/main/packages/speller-crk?channel=nightly&platform=mobile
-#    spellerPath: crk.bhfst
+    spellerPackageKey: https://pahkat.uit.no/main/packages/speller-crk?channel=nightly&platform=mobile
+    spellerPath: crk.bhfst
   win:
     locale: crk-Latn
     languageName: nēhiyawēwin

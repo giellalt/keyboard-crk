@@ -247,12 +247,12 @@ space:
     cmd+alt: '\u{A0}'
 
 targets:
-#  ios:
-#    spellerPackageKey: https://pahkat.uit.no/main/packages/speller-crk?channel=nightly&platform=mobile
-#    spellerPath: crk-Cans.bhfst
-#  android:
-#    spellerPackageKey: https://pahkat.uit.no/main/packages/speller-crk?channel=nightly&platform=mobile
-#    spellerPath: crk-Cans.bhfst
+  ios:
+    spellerPackageKey: https://pahkat.uit.no/main/packages/speller-crk?channel=nightly&platform=mobile
+    spellerPath: crk-Cans.bhfst
+  android:
+    spellerPackageKey: https://pahkat.uit.no/main/packages/speller-crk?channel=nightly&platform=mobile
+    spellerPath: crk-Cans.bhfst
   win:
     locale: crk-Cans
     languageName: ᓀᐦᐃᔭᐍᐏᐣ
