@@ -1,25 +1,27 @@
 displayNames:
   crk: nēhiyawēwin
-  en: Plains Cree (SRO)
+  crk-x-macron: nēhiyawēwin
+  en: Plains Cree (SRO, macron)
+
 modes:
   android:
     default: |
       q w e r t y u i o p
-      a s d f g h j k l ˆ
-        z x c v b n m ¯
+      a s d f g h j k l ¯
+        z x c v b n m
     shift: |
       Q W E R T Y U I O P
-      A S D F G H J K L ˆ
-        Z X C V B N M ¯
+      A S D F G H J K L ¯
+        Z X C V B N M
   ios:
     default: |
       q w e r t y u i o p
-      a s d f g h j k l ˆ
-      \s{shift:1.25} \s{spacer:0.25} z x c v b n m ¯ \s{spacer:0.25} \s{backspace:1.25}
+      a s d f g h j k l ¯
+      \s{shift:1.5} \s{spacer:0.5} z x c v b n m \s{spacer:0.5} \s{backspace:1.5}
     shift: |
       Q W E R T Y U I O P
-      A S D F G H J K L ˆ
-      \s{shift:1.25} \s{spacer:0.25} Z X C V B N M ¯ \s{spacer:0.25} \s{backspace:1.25}
+      A S D F G H J K L ¯
+      \s{shift:1.5} \s{spacer:0.5} Z X C V B N M \s{spacer:0.5} \s{backspace:1.5}
     symbols-1: |
       1 2 3 4 5 6 7 8 9 0
       - / : ; ( ) kr & @ "
@@ -785,7 +787,7 @@ transforms:
 decimal: '.'
 
 strings:
-  space: ayakaskâw
+  space: ayakaskāw
   return: askoc
 space:
   mac:
@@ -795,17 +797,14 @@ space:
     cmd+alt: '\u{A0}'
 targets:
   ios:
-    legacyName: crk
     spellerPackageKey: https://pahkat.uit.no/main/packages/speller-crk?channel=nightly&platform=mobile
-    spellerPath: crk.bhfst
+    spellerPath: crk-x-macron.bhfst
   android:
-    legacyName: crk
     spellerPackageKey: https://pahkat.uit.no/main/packages/speller-crk?channel=nightly&platform=mobile
-    spellerPath: crk.bhfst
+    spellerPath: crk-x-macron.bhfst
   win:
-    locale: crk-Latn
+    locale: crk-Latn-x-macron
     languageName: nēhiyawēwin
-    legacyName: crk-win
   chrome:
     locale: "en"
     xkbLayout: "en"
