@@ -1,5 +1,5 @@
 displayNames:
-  crk: nēhiyawēwin
+  crk: nêhiyawêwin
   en: Plains Cree (SRO)
 decimal: ','
 modes:
@@ -7,20 +7,20 @@ modes:
     default: |
       q w e r t y u i o p
       a s d f g h j k l ˆ
-        z x c v b n m ¯
+        z x c v b n m
     shift: |
       Q W E R T Y U I O P
       A S D F G H J K L ˆ
-        Z X C V B N M ¯
+        Z X C V B N M
   ios:
     default: |
       q w e r t y u i o p
       a s d f g h j k l ˆ
-      \s{shift:1.25} \s{spacer:0.25} z x c v b n m ¯ \s{spacer:0.25} \s{backspace:1.25}
+      \s{shift:1.5} \s{spacer:0.5} z x c v b n m \s{spacer:0.5} \s{backspace:1.5}
     shift: |
       Q W E R T Y U I O P
       A S D F G H J K L ˆ
-      \s{shift:1.25} \s{spacer:0.25} Z X C V B N M ¯ \s{spacer:0.25} \s{backspace:1.25}
+      \s{shift:1.5} \s{spacer:0.5} Z X C V B N M \s{spacer:0.5} \s{backspace:1.5}
     symbols-1: |
       1 2 3 4 5 6 7 8 9 0
       - / : ; ( ) kr & @ "
@@ -802,7 +802,7 @@ targets:
     spellerPath: crk.bhfst
   win:
     locale: crk-Latn
-    languageName: nēhiyawēwin
+    languageName: nêhiyawêwin
     legacyName: crk-win
   chrome:
     locale: "en"
