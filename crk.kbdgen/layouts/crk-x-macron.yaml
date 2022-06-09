@@ -789,12 +789,14 @@ decimal: '.'
 strings:
   space: ayakaskāw
   return: askoc
+
 space:
   mac:
     alt: '\u{A0}'
     alt+shift: '\u{A0}'
     caps+alt: '\u{A0}'
     cmd+alt: '\u{A0}'
+
 targets:
   ios:
     spellerPackageKey: https://pahkat.uit.no/main/packages/speller-crk?channel=nightly&platform=mobile
