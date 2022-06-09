@@ -788,12 +788,14 @@ decimal: '.'
 strings:
   space: ayakaskâw
   return: askoc
+
 space:
   mac:
     alt: '\u{A0}'
     alt+shift: '\u{A0}'
     caps+alt: '\u{A0}'
     cmd+alt: '\u{A0}'
+
 targets:
   ios:
     legacyName: crk
