@@ -1,7 +1,6 @@
 displayNames:
   crk: nēhiyawēwin
   en: Plains Cree (SRO)
-decimal: ','
 modes:
   android:
     default: |
@@ -782,6 +781,9 @@ transforms:
     'N': Ñ
     o: õ
     O: Õ
+
+decimal: '.'
+
 strings:
   space: ayakaskâw
   return: askoc
