@@ -31,29 +31,29 @@ modes:
       \s{shiftSymbols} \s{spacer:0.25} . , ? ! ' \s{spacer:0.25} \s{backspace}
   ipad-9in:
     default: |
-      \s{"`":0.75}  q w e r t y u i o p \s{backspace:1.25}
-      \s{shift}     a s d f g h j k l ˆ \s{shift}
-      \s{spacer:0.5}  ¯ z x c v b n m , . \s{spacer:0.5} \s{return:2}
+      q             w e r t y u i o p \s{backspace}
+      \s{"ˆ":0.5} a s d f g h j k l   \s{return:1.75}
+      \s{shift}   z x c v b n m , .   \s{shift:1.25}
     shift: |
-      \s{"@":0.75}  Q W E R T Y U I O P \s{backspace:1.25}
-      \s{shift}     A S D F G H J K L ˆ \s{shift}
-      \s{spacer:0.5}  ¯ Z X C V B N M ! ? \s{spacer:0.5} \s{return:2}
+      Q             W E R T Y U I O P \s{backspace}
+      \s{"ˆ":0.5} A S D F G H J K L   \s{return:1.75}
+      \s{shift}   Z X C V B N M , .   \s{shift:1.25}
     alt: |
-      \s{"@":0.75}  1 2 3 4 5 6 7 8 9 0   \s{backspace:1.25}
-      \s{shift}     % # $ & * ( ) ' " ˆ   \s{shift:1.5}
-      \s{spacer:0.5}  q w x - = / ; : ! ? \s{spacer:0.5} \s{return:2}
+      1             2 3 4 5 6 7 8 9 0 \s{backspace}
+      \s{"ˆ":0.5} @ # $ & * ( ) ' "   \s{return:1.75}
+      \s{shift}   % - + = / ; : ! ?   \s{shift:1.25}
     alt+shift: |
-      \s{"@":0.75}  1 2 3 4 5 6 7 8 9 0   \s{backspace:1.25}
-      \s{shift}     % # $ & * ( ) ' " ˆ   \s{shift}
-      \s{spacer:0.5}  Q W X - = / ; : ! ? \s{spacer:0.5} \s{return:2}
+      1             2 3 4 5 6 7 8 9 0 \s{backspace}
+      \s{"ˆ":0.5} @ # $ & * ( ) ' "   \s{return:1.75}
+      \s{shift}   % - + = / ; : ! ?   \s{shift:1.25}
     symbols-1: |
-      \s{spacer:0.75} 1 2 3 4 5 6 7 8 9 0 ` \s{backspace:1.25}
-      \s{shiftSymbols} @ # kr & * ( ) ' " + • \s{shiftSymbols}
-      \s{spacer:1.5} % _ - = / ; : , . \s{spacer:0.5} \s{return:2}
+      1                  2 3 4 5 6 7 8 9 0 \s{backspace}
+      \s{spacer:0.5}   @ # $ & * ( ) ' "   \s{return:1.75}
+      \s{shiftSymbols} % - + = / ; : ! ?   \s{shiftSymbols:1.25}
     symbols-2: |
-      \s{spacer:0.75}  1 2 3 4 5 6 7 8 9 0 ´ \s{backspace:1.25}
-      \s{shiftSymbols} € $ £ ^ [ ] { } — ° … \s{shiftSymbols}
-      \s{spacer:1.5}    § | ~ ≠ \ < > ! ?    \s{spacer:0.5} \s{return:2}
+      1                  2 3 4 5 6 7 8 9 0 \s{backspace}
+      \s{spacer:0.5}   € £ ¥ _ ^ [ ] { }   \s{return:1.75}
+      \s{shiftSymbols} § | ~ … \ < > ! ?   \s{shiftSymbols:1.25}
   ipad-12in:
     default: |
       ' 1 2 3 4 5 6 7 8 9 0 + ´ \s{backspace:1.5}
