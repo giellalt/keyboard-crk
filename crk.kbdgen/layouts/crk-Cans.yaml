@@ -209,11 +209,17 @@ longpress:
   ᓭ: ᓷ
 
 deadKeys:
+  android:
+    default: [ᐧ]
+    shift: [ᐧ]
   ios:
+    default: [ᐧ]
     shift: [ᐧ]
   mac:
+    default: [ᐧ]
     shift: [ᐧ]
   win:
+    default: [ᐧ]
     shift: [ᐧ]
 
 transforms:
