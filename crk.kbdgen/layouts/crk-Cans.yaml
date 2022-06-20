@@ -216,7 +216,7 @@ deadKeys:
     default: [ᐧ]
     shift: [ᐧ]
   mac:
-    default: [ᐧ]
+#    default: [ᐧ]
     shift: [ᐧ]
   win:
     default: [ᐧ]
