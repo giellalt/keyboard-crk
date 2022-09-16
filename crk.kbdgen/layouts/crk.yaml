@@ -800,11 +800,11 @@ targets:
   ios:
     legacyName: crk
     spellerPackageKey: https://pahkat.uit.no/main/packages/speller-crk?channel=nightly&platform=mobile
-    spellerPath: crk-x-predict.bhfst
+    spellerPath: crk-x-predict_morphs.bhfst
   android:
     legacyName: crk
     spellerPackageKey: https://pahkat.uit.no/main/packages/speller-crk?channel=nightly&platform=mobile
-    spellerPath: crk-x-predict.bhfst
+    spellerPath: crk-x-predict_morphs.bhfst
   win:
     locale: crk-Latn
     languageName: nêhiyawêwin
