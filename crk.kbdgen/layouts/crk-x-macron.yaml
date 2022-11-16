@@ -2,190 +2,199 @@ displayNames:
   crk: nēhiyawēwin
   crk-x-macron: nēhiyawēwin
   en: Plains Cree (SRO, macron)
-
-modes:
-  android:
-    default: |
-      q w e r t y u i o p
-      a s d f g h j k l ¯
-        z x c v b n m
-    shift: |
-      Q W E R T Y U I O P
-      A S D F G H J K L ¯
-        Z X C V B N M
-  ios:
-    default: |
-      q w e r t y u i o p
-      a s d f g h j k l ¯
-      \s{shift:1.5} \s{spacer:0.5} z x c v b n m \s{spacer:0.5} \s{backspace:1.5}
-    shift: |
-      Q W E R T Y U I O P
-      A S D F G H J K L ¯
-      \s{shift:1.5} \s{spacer:0.5} Z X C V B N M \s{spacer:0.5} \s{backspace:1.5}
-    symbols-1: |
-      1 2 3 4 5 6 7 8 9 0
-      - / : ; ( ) kr & @ "
-      \s{shiftSymbols} \s{spacer:0.25} . , ? ! ' \s{spacer:0.25} \s{backspace}
-    symbols-2: |
-      [ ] { } # % ^ * + =
-      _ \ | ~ < > € $ £ •
-      \s{shiftSymbols} \s{spacer:0.25} . , ? ! ' \s{spacer:0.25} \s{backspace}
-  ipad-9in:
-    default: |
-      q             w e r t y u i o p \s{backspace}
-      \s{"¯":0.5} a s d f g h j k l   \s{return:1.75}
-      \s{shift}   z x c v b n m , .   \s{shift:1.25}
-    shift: |
-      Q             W E R T Y U I O P \s{backspace}
-      \s{"¯":0.5} A S D F G H J K L   \s{return:1.75}
-      \s{shift}   Z X C V B N M , .   \s{shift:1.25}
-    alt: |
-      1             2 3 4 5 6 7 8 9 0 \s{backspace}
-      \s{"¯":0.5} @ # $ & * ( ) ' "   \s{return:1.75}
-      \s{shift}   % - + = / ; : ! ?   \s{shift:1.25}
-    alt+shift: |
-      1             2 3 4 5 6 7 8 9 0 \s{backspace}
-      \s{"¯":0.5} @ # $ & * ( ) ' "   \s{return:1.75}
-      \s{shift}   % - + = / ; : ! ?   \s{shift:1.25}
-    symbols-1: |
-      1                  2 3 4 5 6 7 8 9 0 \s{backspace}
-      \s{spacer:0.5}   @ # $ & * ( ) ' "   \s{return:1.75}
-      \s{shiftSymbols} % - + = / ; : ! ?   \s{shiftSymbols:1.25}
-    symbols-2: |
-      1                  2 3 4 5 6 7 8 9 0 \s{backspace}
-      \s{spacer:0.5}   € £ ¥ _ ^ [ ] { }   \s{return:1.75}
-      \s{shiftSymbols} § | ~ … \ < > ! ?   \s{shiftSymbols:1.25}
-  ipad-12in:
-    default: |
-      ' 1 2 3 4 5 6 7 8 9 0 + ´ \s{backspace:1.5}
-      \s{spacer:1.5} q w e r t y u i o p
-      \s{caps:1.75} a s d f g h j k l ø æ \s{return:1.75}
-      \s{shift:1.25} ž z č c v b n m , . - \s{shift:2.25}
-    shift: |
-      § ! " # kr % & / ( ) = ? ` \s{backspace:1.5}
-      \s{spacer:1.5} Q W E R T Y U I O P
-      \s{caps:1.75} A S D F G H J K L Ø Æ \s{return:1.75}
-      \s{shift:1.25} Ž Z Č C V B N M ; : _ \s{shift:2.25}
-    alt: |
-      § ! " # kr % & / ( ) = ? ` \s{backspace:1.5}
-      \s{spacer:1.5} q w e r t y u i o p
-      \s{caps:1.75} a s d f g h j k l ö ä \s{return:1.75}
-      \s{shift:1.25} < z x c v b n m ; : _ \s{shift:2.25}
-    alt+shift: |
-      § ! " # kr % & / ( ) = ? ` \s{backspace:1.5}
-      \s{spacer:1.5} Q W E R T Y U I O P
-      \s{caps:1.75} A S D F G H J K L Ö Ä \s{return:1.75}
-      \s{shift:1.25} > Z X C V B N M ; : _ \s{shift:2.25}
-    symbols-1: |
-      ` 1 2 3 4 5 6 7 8 9 0 < > \s{backspace:1.5}
-      \s{spacer:1.5} [ ] { } # % ^ * + = \ | ~
-      \s{spacer:1.75} - / : ; ( ) kr & @ $ £ \s{return:1.75}
-      \s{spacer:3.25} … . , ? ! ' " _ € \s{spacer:2.25}
-  mac:
-    default: |
-      ` 1 2 3 4 5 6 7 8 9 0 - =
-        q w e r t y u i o p [ ]
-        a s d f g h j k l ; ' \
-      § z x c v b n m , . /
-    shift: |
-      ~ ! @ # $ % ^ & * ( ) _ +
-        Q W E R T Y U I O P { }
-        A S D F G H J K L : " |
-      ± Z X C V B N M < > ?
-    caps: |
-      ` 1 2 3 4 5 6 7 8 9 0 - =
-        Q W E R T Y U I O P [ ]
-        A S D F G H J K L ; ' \
-      § Z X C V B N M , . /
-    alt: |
-      ` ¡ ™ £ ¢ § ˆ ¶ • ª º – ≠
-        œ ˙ ē ® þ ý ¨ ī ō , “ ‘
-        ā š ð ƒ © ˍ ˝ ˚ - … æ «
-      § ˀ . ¸ ˇ ˘ ń ˛ ≤ ≥ ÷
-    alt+shift: |
-      \u{300} ⁄       €             ‹       ›             †       ¯             ‡       °       ·       ‚       — ±
-              Œ       \u{307}       ê       ‰             Þ       \u{A0}\u{30F} \u{308} î       ô       \u{326} ” ’
-              â       \u{A0}\u{311} Ð       \u{A0}\u{330} ‸       \u{331}       \u{30B} \u{30A} \u{335} №       Æ »
-      ±       \u{309} \u{323}       \u{327} \u{30C}       \u{306} \u{303}       \u{328} „       ʔ       ¿
-    caps+alt: |
-      ` ¡ ™  £ ¢ § ˆ ¶ • ª º – ≠
-        Œ ˙  ´ ® Þ ¥ ¨ ʼ Ø , “ ‘
-        ¯ SS Ð ƒ © ˍ ˝ ˚ - … « \
-      § ˀ .  ¸ ˇ ˘ ˜ ˛ ≤ ≥ ÷
-    ctrl: |
-      ` 1      2      3      4      5      6      7     8     9      0      \u{1F} =
-        \u{11} \u{17} \u{5}  \u{12} \u{14} \u{19} \u{15} \u{9} \u{F} \u{10} \u{1B} \u{1D}
-        \u{1}  \u{13} \u{4}  \u{6}  \u{7}  \u{8}  \u{A}  \u{B} \u{C} ;      '      \u{1C}
-      0 \u{1A} \u{18} \u{3}  \u{16} \u{2}  \u{E}  \u{D} ,     .      /
-  win:
-    default: |
-      ` 1 2 3 4 5 6 7 8 9 0 - =
-        q w e r t y u i o p [ ]
-        a s d f g h j k l ; ' ¯
-      \ z x c v b n m , . /
-    shift: |
-      ~ ! @ # $ % ^ & * ( ) _ +
-        Q W E R T Y U I O P { }
-        A S D F G H J K L : " ˆ
-      | Z X C V B N M < > ?
-    caps: |
-      ` 1 2 3 4 5 6 7 8 9 0 - =
-        Q W E R T Y U I O P [ ]
-        A S D F G H J K L ; ' ˆ
-      \ Z X C V B N M < . /
-    caps+shift: |
-      ~ ! @ # $ % ^ & * ( ) _ +
-        q w e r t y u i o p { }
-        a s d f g h j k l : " ¯
-      | z x c v b n m , > ?
-    alt: |
-      \u{0} ¡ ²     ³ ¤     €     ¼     ½     ¾     ‘     ’ ¥ ×
-            ä å     é ®     þ     ü     ú     í     ó     ö « »
-            á ß     ð \u{0} \u{0} \u{0} \u{0} \u{0} ø     ¶ ´ \
-      \u{0} æ \u{0} © \u{0} \u{0} ñ     µ     ç     \u{0} ¿
-    alt+shift: |
-      \u{0} ¹ \u{0} \u{0} £     \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} ÷
-            Ä Å     É     \u{0} Þ     Ü     Ú     Í     Ó     Ö     \u{0} \u{0}
-            Á §     Ð     \u{0} \u{0} \u{0} \u{0} \u{0} Ø     °     ¨     |
-      \u{0} Æ \u{0} ¢     \u{0} \u{0} Ñ     \u{0} Ç     \u{0} \u{0}
-    ctrl: |
-      \u{0}  \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}  \u{0}
-             \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{1B} \u{1D}
-             \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}  \u{1C}
-      \u{1C} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
-longpress:
-  a: ā â á à 
-  e: ē ê é è
-  i: ī î í ì
-  o: ō ô ó ò
-
-deadKeys:
-  mac:
-    shift: [^]
-    alt: [',', '-', ., '`', ¨, ¸, ˀ, ˆ, ˇ, ˍ, ˘, ˙, ˚, ˛, ˝]
-    alt+shift: [ʔ, ‸, №, '\u{A0}\u{30F}', '\u{A0}\u{311}', '\u{A0}\u{330}', ¯]
-    caps+alt: [',', '-', ., '`', ¨, ¯, ´, ¸, ʼ, ˀ, ˆ, ˇ, ˍ, ˘, ˙, ˚, ˛, ˜, ˝]
-  win:
-    default: ['''', '`', ¯]
-    shift: ['"', ^, '~', ˆ]
-    caps: ['''', '`', ˆ]
-    caps+shift: ['"', ^, '~', ¯]
-  android:
-    default: [ˆ, '¯']
-    shift: [ˆ, '¯']
-  ios:
-    default: [ˆ, '¯']
-    shift: [ˆ, '¯']
-  ipad-9in:
-    default: [ˆ, '¯']
-    shift: [ˆ, '¯']
-  ipad-12in:
-    default: [ˆ, '¯']
-    shift: [ˆ, '¯']
-
+decimal: '.'
+android:
+  config:
+    spellerPackageKey: https://pahkat.uit.no/main/packages/speller-crk?channel=nightly&platform=mobile
+    spellerPath: crk-x-macron.bhfst
+  primary:
+    layers:
+      default: |
+        q w e r t y u i o p
+        a s d f g h j k l ¯
+        \s{shift} z x c v b n m \s{backspace}
+      shift: |
+        Q W E R T Y U I O P
+        A S D F G H J K L ¯
+        \s{shift} Z X C V B N M \s{backspace}
+  deadKeys:
+    default: ['ˆ', '¯']
+    shift: ['ˆ', '¯']
+iOS:
+  config:
+    spellerPackageKey: https://pahkat.uit.no/main/packages/speller-crk?channel=nightly&platform=mobile
+    spellerPath: crk-x-macron.bhfst
+  primary:
+    layers:
+      default: |
+        q w e r t y u i o p
+        a s d f g h j k l ¯
+        \s{shift:1.5} \s{spacer:0.5} z x c v b n m \s{spacer:0.5} \s{backspace:1.5}
+      shift: |
+        Q W E R T Y U I O P
+        A S D F G H J K L ¯
+        \s{shift:1.5} \s{spacer:0.5} Z X C V B N M \s{spacer:0.5} \s{backspace:1.5}
+      symbols-1: |
+        1 2 3 4 5 6 7 8 9 0
+        - / : ; ( ) kr & @ "
+        \s{shiftSymbols} \s{spacer:0.25} . , ? ! ' \s{spacer:0.25} \s{backspace}
+      symbols-2: |
+        [ ] { } # % ^ * + =
+        _ \ | ~ < > € $ £ •
+        \s{shiftSymbols} \s{spacer:0.25} . , ? ! ' \s{spacer:0.25} \s{backspace}
+  iPad-9in:
+    layers:
+      default: |
+        q             w e r t y u i o p \s{backspace}
+        \s{"¯":0.5} a s d f g h j k l   \s{return:1.75}
+        \s{shift}   z x c v b n m , .   \s{shift:1.25}
+      shift: |
+        Q             W E R T Y U I O P \s{backspace}
+        \s{"¯":0.5} A S D F G H J K L   \s{return:1.75}
+        \s{shift}   Z X C V B N M , .   \s{shift:1.25}
+      alt: |
+        1             2 3 4 5 6 7 8 9 0 \s{backspace}
+        \s{"¯":0.5} @ # $ & * ( ) ' "   \s{return:1.75}
+        \s{shift}   % - + = / ; : ! ?   \s{shift:1.25}
+      alt+shift: |
+        1             2 3 4 5 6 7 8 9 0 \s{backspace}
+        \s{"¯":0.5} @ # $ & * ( ) ' "   \s{return:1.75}
+        \s{shift}   % - + = / ; : ! ?   \s{shift:1.25}
+      symbols-1: |
+        1                  2 3 4 5 6 7 8 9 0 \s{backspace}
+        \s{spacer:0.5}   @ # $ & * ( ) ' "   \s{return:1.75}
+        \s{shiftSymbols} % - + = / ; : ! ?   \s{shiftSymbols:1.25}
+      symbols-2: |
+        1                  2 3 4 5 6 7 8 9 0 \s{backspace}
+        \s{spacer:0.5}   € £ ¥ _ ^ [ ] { }   \s{return:1.75}
+        \s{shiftSymbols} § | ~ … \ < > ! ?   \s{shiftSymbols:1.25}
+  iPad-12in:
+    layers:
+      default: |
+        ' 1 2 3 4 5 6 7 8 9 0 + ´ \s{backspace:1.5}
+        \s{spacer:1.5} q w e r t y u i o p
+        \s{caps:1.75} a s d f g h j k l ø æ \s{return:1.75}
+        \s{shift:1.25} ž z č c v b n m , . - \s{shift:2.25}
+      shift: |
+        § ! " # kr % & / ( ) = ? ` \s{backspace:1.5}
+        \s{spacer:1.5} Q W E R T Y U I O P
+        \s{caps:1.75} A S D F G H J K L Ø Æ \s{return:1.75}
+        \s{shift:1.25} Ž Z Č C V B N M ; : _ \s{shift:2.25}
+      alt: |
+        § ! " # kr % & / ( ) = ? ` \s{backspace:1.5}
+        \s{spacer:1.5} q w e r t y u i o p
+        \s{caps:1.75} a s d f g h j k l ö ä \s{return:1.75}
+        \s{shift:1.25} < z x c v b n m ; : _ \s{shift:2.25}
+      alt+shift: |
+        § ! " # kr % & / ( ) = ? ` \s{backspace:1.5}
+        \s{spacer:1.5} Q W E R T Y U I O P
+        \s{caps:1.75} A S D F G H J K L Ö Ä \s{return:1.75}
+        \s{shift:1.25} > Z X C V B N M ; : _ \s{shift:2.25}
+      symbols-1: |
+        ` 1 2 3 4 5 6 7 8 9 0 < > \s{backspace:1.5}
+        \s{spacer:1.5} [ ] { } # % ^ * + = \ | ~
+        \s{spacer:1.75} - / : ; ( ) kr & @ $ £ \s{return:1.75}
+        \s{spacer:3.25} … . , ? ! ' " _ € \s{spacer:2.25}
+  deadKeys:
+    default: ['ˆ', '¯']
+    shift: ['ˆ', '¯']
+macOS:
+  primary:
+    layers:
+      default: |
+        ` 1 2 3 4 5 6 7 8 9 0 - =
+          q w e r t y u i o p [ ]
+          a s d f g h j k l ; ' \
+        § z x c v b n m , . /
+      shift: |
+        ~ ! @ # $ % ^ & * ( ) _ +
+          Q W E R T Y U I O P { }
+          A S D F G H J K L : " |
+        ± Z X C V B N M < > ?
+      caps: |
+        ` 1 2 3 4 5 6 7 8 9 0 - =
+          Q W E R T Y U I O P [ ]
+          A S D F G H J K L ; ' \
+        § Z X C V B N M , . /
+      alt: |
+        ` ¡ ™ £ ¢ § ˆ ¶ • ª º – ≠
+          œ ˙ ē ® þ ý ¨ ī ō , “ ‘
+          ā š ð ƒ © ˍ ˝ ˚ - … æ «
+        § ˀ . ¸ ˇ ˘ ń ˛ ≤ ≥ ÷
+      alt+shift: |
+        \u{300} ⁄       €             ‹       ›             †       ¯             ‡       °       ·       ‚       — ±
+                Œ       \u{307}       ê       ‰             Þ       \u{A0}\u{30F} \u{308} î       ô       \u{326} ” ’
+                â       \u{A0}\u{311} Ð       \u{A0}\u{330} ‸       \u{331}       \u{30B} \u{30A} \u{335} №       Æ »
+        ±       \u{309} \u{323}       \u{327} \u{30C}       \u{306} \u{303}       \u{328} „       ʔ       ¿
+      ctrl: |
+        ` 1      2      3      4      5      6      7     8     9      0      \u{1F} =
+          \u{11} \u{17} \u{5}  \u{12} \u{14} \u{19} \u{15} \u{9} \u{F} \u{10} \u{1B} \u{1D}
+          \u{1}  \u{13} \u{4}  \u{6}  \u{7}  \u{8}  \u{A}  \u{B} \u{C} ;      '      \u{1C}
+        0 \u{1A} \u{18} \u{3}  \u{16} \u{2}  \u{E}  \u{D} ,     .      /
+      alt+caps: |
+        ` ¡ ™  £ ¢ § ˆ ¶ • ª º – ≠
+          Œ ˙  ´ ® Þ ¥ ¨ ʼ Ø , “ ‘
+          ¯ SS Ð ƒ © ˍ ˝ ˚ - … « \
+        § ˀ .  ¸ ˇ ˘ ˜ ˛ ≤ ≥ ÷
+  space:
+    alt: \u{A0}
+    alt+shift: \u{A0}
+    cmd+alt: \u{A0}
+    alt+caps: \u{A0}
+  deadKeys:
+    shift: ['^']
+    alt: [',', '-', '.', '`', '¨', '¸', 'ˀ', 'ˆ', 'ˇ', 'ˍ', '˘', '˙', '˚', '˛', '˝']
+    alt+shift: ['ʔ', '‸', '№', '\u{A0}\u{30F}', '\u{A0}\u{311}', '\u{A0}\u{330}', '¯']
+    alt+caps: [',', '-', '.', '`', '¨', '¯', '´', '¸', 'ʼ', 'ˀ', 'ˆ', 'ˇ', 'ˍ', '˘', '˙', '˚', '˛', '˜', '˝']
+windows:
+  config:
+    locale: crk-Latn-x-macron
+    languageName: nēhiyawēwin
+  primary:
+    layers:
+      default: |
+        ` 1 2 3 4 5 6 7 8 9 0 - =
+          q w e r t y u i o p [ ]
+          a s d f g h j k l ; ' ¯
+        \ z x c v b n m , . /
+      shift: |
+        ~ ! @ # $ % ^ & * ( ) _ +
+          Q W E R T Y U I O P { }
+          A S D F G H J K L : " ˆ
+        | Z X C V B N M < > ?
+      caps: |
+        ` 1 2 3 4 5 6 7 8 9 0 - =
+          Q W E R T Y U I O P [ ]
+          A S D F G H J K L ; ' ˆ
+        \ Z X C V B N M < . /
+      caps+shift: |
+        ~ ! @ # $ % ^ & * ( ) _ +
+          q w e r t y u i o p { }
+          a s d f g h j k l : " ¯
+        | z x c v b n m , > ?
+      alt: |
+        \u{0} ¡ ²     ³ ¤     €     ¼     ½     ¾     ‘     ’ ¥ ×
+              ä å     é ®     þ     ü     ú     í     ó     ö « »
+              á ß     ð \u{0} \u{0} \u{0} \u{0} \u{0} ø     ¶ ´ \
+        \u{0} æ \u{0} © \u{0} \u{0} ñ     µ     ç     \u{0} ¿
+      alt+shift: |
+        \u{0} ¹ \u{0} \u{0} £     \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} ÷
+              Ä Å     É     \u{0} Þ     Ü     Ú     Í     Ó     Ö     \u{0} \u{0}
+              Á §     Ð     \u{0} \u{0} \u{0} \u{0} \u{0} Ø     °     ¨     |
+        \u{0} Æ \u{0} ¢     \u{0} \u{0} Ñ     \u{0} Ç     \u{0} \u{0}
+      ctrl: |
+        \u{0}  \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}  \u{0}
+               \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{1B} \u{1D}
+               \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}  \u{1C}
+        \u{1C} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
+  deadKeys:
+    default: ['''', '`', '¯']
+    shift: ['"', '^', '~', 'ˆ']
+    caps: ['''', '`', 'ˆ']
+    caps+shift: ['"', '^', '~', '¯']
 transforms:
   '\u{A0}\u{30F}':
-    ' ': '\u{A0}\u{30F}'
+    ' ': \u{A0}\u{30F}
     a: ȁ
     A: Ȁ
     e: ȅ
@@ -199,7 +208,7 @@ transforms:
     u: ȕ
     U: Ȕ
   '\u{A0}\u{311}':
-    ' ': '\u{A0}\u{311}'
+    ' ': \u{A0}\u{311}
     a: ȃ
     A: Ȃ
     e: ȇ
@@ -213,7 +222,7 @@ transforms:
     u: ȗ
     U: Ȗ
   '\u{A0}\u{330}':
-    ' ': '\u{A0}\u{330}'
+    ' ': \u{A0}\u{330}
     e: ḛ
     E: Ḛ
     i: ḭ
@@ -246,8 +255,8 @@ transforms:
     S: Ș
     t: ț
     T: Ț
-  .:
-    ' ': .
+  '.':
+    ' ': '.'
     a: ạ
     A: Ạ
     b: ḅ
@@ -388,22 +397,22 @@ transforms:
     G: Ḡ
     i: ī
     I: Ī
-    l: 'l\u{323}\u{304}'
-    L: 'L\u{323}\u{304}'
+    l: l\u{323}\u{304}
+    L: L\u{323}\u{304}
     o: ō
     O: Ō
-    r: 'r\u{323}\u{304}'
-    R: 'R\u{323}\u{304}'
-    s: 's\u{304}'
-    S: 'S\u{304}'
+    r: r\u{323}\u{304}
+    R: R\u{323}\u{304}
+    s: s\u{304}
+    S: S\u{304}
     u: ū
     U: Ū
     v: ǖ
     V: Ǖ
     'y': ȳ
     'Y': Ȳ
-    z: 'z\u{304}'
-    Z: 'Z\u{304}'
+    z: z\u{304}
+    Z: Z\u{304}
   ˘:
     ' ': ˘
     a: ă
@@ -475,7 +484,7 @@ transforms:
     o: ö
     O: Ö
     t: ẗ
-    T: 'T\u{308}'
+    T: T\u{308}
     u: ü
     U: Ü
     w: ẅ
@@ -488,16 +497,16 @@ transforms:
     ' ': ˚
     a: å
     A: Å
-    e: 'e\u{30A}'
-    E: 'E\u{30A}'
-    o: 'o\u{30A}'
-    O: 'O\u{30A}'
+    e: e\u{30A}
+    E: E\u{30A}
+    o: o\u{30A}
+    O: O\u{30A}
     u: ů
     U: Ů
     w: ẘ
-    W: 'W\u{30A}'
+    W: W\u{30A}
     'y': ẙ
-    'Y': 'Y\u{30A}'
+    'Y': Y\u{30A}
   ˝:
     ' ': ˝
     o: ő
@@ -528,8 +537,8 @@ transforms:
     S: Ş
     t: ţ
     T: Ţ
-    z: 'z\u{327}'
-    Z: 'Z\u{327}'
+    z: z\u{327}
+    Z: Z\u{327}
   ˛:
     ' ': ˛
     a: ą
@@ -558,10 +567,10 @@ transforms:
     I: Î
     j: ĵ
     J: Ĵ
-    m: 'm\u{302}'
-    M: 'M\u{302}'
-    'n': 'n\u{302}'
-    'N': 'N\u{302}'
+    m: m\u{302}
+    M: M\u{302}
+    'n': n\u{302}
+    'N': N\u{302}
     o: ô
     O: Ô
     s: ŝ
@@ -591,7 +600,7 @@ transforms:
     i: ǐ
     I: Ǐ
     j: ǰ
-    J: 'J\u{30C}'
+    J: J\u{30C}
     k: ǩ
     K: Ǩ
     l: ľ
@@ -610,8 +619,8 @@ transforms:
     U: Ǔ
     v: ǚ
     V: Ǚ
-    x: 'ʒ\u{30C}'
-    X: 'Ʒ\u{30C}'
+    x: ʒ\u{30C}
+    X: Ʒ\u{30C}
     z: ž
     Z: Ž
   ˍ:
@@ -621,7 +630,7 @@ transforms:
     d: ḏ
     D: Ḏ
     h: ẖ
-    H: 'H\u{331}'
+    H: H\u{331}
     k: ḵ
     K: Ḵ
     l: ḻ
@@ -636,7 +645,7 @@ transforms:
     Z: Ẕ
   №:
     ' ': №
-    '''': ʹ
+    "'": ʹ
     ‘: ʻ
     ’: ʼ
     '"': ʺ
@@ -734,8 +743,8 @@ transforms:
     O: Ơ
     u: ư
     U: Ư
-  '''':
-    ' ': ''''
+  "'":
+    ' ': "'"
     a: á
     A: Á
     c: ç
@@ -783,30 +792,12 @@ transforms:
     'N': Ñ
     o: õ
     O: Õ
-
-decimal: '.'
-
-strings:
+longpress:
+  a: ā â á à
+  e: ē ê é è
+  i: ī î í ì
+  o: ō ô ó ò
+keyNames:
   space: ayakaskāw
   return: askoc
 
-space:
-  mac:
-    alt: '\u{A0}'
-    alt+shift: '\u{A0}'
-    caps+alt: '\u{A0}'
-    cmd+alt: '\u{A0}'
-
-targets:
-  ios:
-    spellerPackageKey: https://pahkat.uit.no/main/packages/speller-crk?channel=nightly&platform=mobile
-    spellerPath: crk-x-macron.bhfst
-  android:
-    spellerPackageKey: https://pahkat.uit.no/main/packages/speller-crk?channel=nightly&platform=mobile
-    spellerPath: crk-x-macron.bhfst
-  win:
-    locale: crk-Latn-x-macron
-    languageName: nēhiyawēwin
-  chrome:
-    locale: "en"
-    xkbLayout: "en"
