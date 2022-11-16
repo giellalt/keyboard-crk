@@ -21,6 +21,18 @@ android:
   deadKeys:
     default: ['ᐧ']
     shift: ['ᐧ']
+  tablet-600:
+    layers:
+      default: |
+        ᐦ ᐳ ᒍ ᑐ ᐅ ᔪ ᒧ ᑯ ᓄ ᓱ ᐠ
+        ᑊ ᐸ ᒐ ᑕ ᐊ ᔭ ᒪ ᑲ ᓇ ᓴ ᐧ
+        ᐨ ᐱ ᒋ ᑎ ᐃ ᔨ ᒥ ᑭ ᓂ ᓯ ᐟ
+        \s{shift} ᐯ ᒉ ᑌ ᐁ ᔦ ᒣ ᑫ ᓀ ᓭ \s{backspace}
+      shift: |
+        ᐣ ᐴ ᒎ ᑑ ᐆ ᔫ ᒨ ᑰ ᓅ ᓲ ᐠ
+        ᐢ ᐲ ᒌ ᑏ ᐄ ᔩ ᒦ ᑮ ᓃ ᓰ ᐧ
+        ᒼ ᐹ ᒑ ᑖ ᐋ ᔮ ᒫ ᑳ ᓈ ᓵ ᐟ
+        \s{shift} ᕀ ᐤ ᕽ ᙮ ᓬ ᕒ ( ) / \s{backspace}
 iOS:
   config:
     spellerPackageKey: https://pahkat.uit.no/main/packages/speller-crk?channel=nightly&platform=mobile
