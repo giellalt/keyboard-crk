@@ -104,6 +104,11 @@ iOS:
         \s{tab:1.5}     [ ] { } # % ^  * + = \ | ~
         \s{spacer:1.75} - / : ; ( ) kr & @ $ £   \s{return:1.75}
         \s{spacer:3.25}   … . , ? ! ’  “ _ €     \s{spacer:2.25}
+      symbols-2: |
+        `               1 2 3 4 5 6 7  8 9 0 < > \s{backspace:1.5}
+        \s{tab:1.5}     [ ] { } # % ^  * + = \ | ~
+        \s{spacer:1.75} - / : ; ( ) kr & @ $ £   \s{return:1.75}
+        \s{spacer:3.25}   … . , ? ! ’  “ _ €     \s{spacer:2.25}
   deadKeys:
     default: ['ˆ', '¯']
     shift: ['ˆ', '¯']
