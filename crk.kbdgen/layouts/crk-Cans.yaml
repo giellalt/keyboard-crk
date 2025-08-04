@@ -35,8 +35,8 @@ android:
         \s{shift} ᕀ ᐤ ᕽ ᙮ ᓬ ᕒ ( ) / \s{backspace}
 iOS:
   config:
-    # spellerPackageKey: https://pahkat.uit.no/main/packages/speller-crk?channel=nightly&platform=mobile
-    # spellerPath: crk-Cans.bhfst
+    spellerPackageKey: https://pahkat.uit.no/main/packages/speller-crk?channel=nightly&platform=mobile
+    spellerPath: crk-Cans.bhfst
   primary:
     layers:
       default: |

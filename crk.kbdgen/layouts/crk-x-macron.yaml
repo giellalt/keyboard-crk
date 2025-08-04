@@ -32,8 +32,8 @@ android:
         \s{shift} Z X C V B N M \s{backspace}
 iOS:
   config:
-    # spellerPackageKey: https://pahkat.uit.no/main/packages/speller-crk?channel=nightly&platform=mobile
-    # spellerPath: crk-x-macron.bhfst
+    spellerPackageKey: https://pahkat.uit.no/main/packages/speller-crk?channel=nightly&platform=mobile
+    spellerPath: crk-x-macron.bhfst
   primary:
     layers:
       default: |
